@@ -1,0 +1,7 @@
+api_platform:
+    eager_loading:
+        fetch_partial: true
+        max_joins: 30
+    defaults:
+        normalization_context:
+            skip_null_values: false

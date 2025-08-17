@@ -1,0 +1,15 @@
+@import "tailwindcss";
+body,html{
+    font-family: 'Inter', sans-serif;
+}
+body {
+    background-image: linear-gradient(to right, #e0e7ff, #ffffff, #d1fae5);
+    position: relative;
+}
+
+html, body, #app, #app>div {
+    height: 100%
+}
+body,html #root {
+    height: 100%;
+}
