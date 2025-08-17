@@ -16,6 +16,7 @@ From the `backend/` folder, start the built-in PHP server:
 ```bash
 
 cd gestioBack
+composer install
 php /bin/console lexik:jwt:generate-keypair # to create Keys Pair for the Auth, optionally you can do with openssl command
 php /bin/console doctrine:migrations:migrate # create DB
 php -S localhost:8000 -t ./public
